@@ -6,9 +6,40 @@
         <link rel="stylesheets" href="styles.css"/>
     </head>
     <body>
+        <style>
+        body {
+                margin: 0;
+                display: flex;
+        justify-content: center;
+        height:100vh;
+        background-color: grey;
+        }
+        </style>
         <div class="container">
-            <h1>Shopping List</h1>
+            <style>
+            .container {
+                max-width: 400px;
+width: 100%;
+padding: 20px;
+background:white;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+text-align: center;
+            }
+            </style>
+            <h1>Shopping List
+                <style>
+                    h1{
+                color:#333;
+                    }
+                </style>
+            </h1>
             <div class="form">
+                <style>
+                    .form{
+                        margin-bottom: 20px;
+                    }
+                </style>
                 <input type="text" id="itemInput" placeholder="Enter a new item">
                 <br>
                 <button id="addButton">Add Item</button>
