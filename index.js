@@ -34,5 +34,15 @@ document.addEventListener("DOMContentLoaded", () => {
                  displayItems(); 
                 };
                 //Function to clear all the items from the list
+                const clearList = () => {
+                items = []; 
+                displayItems();
+                };  
+                //Event listener for the "add" button
+                addButton.addEventListener('click', addItem);
                 
+                //Event listener for the "clear list" button
+                clearButton.addEventListener('click', clearList);
+            });
+
 
