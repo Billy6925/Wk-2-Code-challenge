@@ -23,4 +23,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 const addItem = () => { 
                 const itemText = itemInput.value.trim();
                 if (itemText !== "") {
+                items.push({ text: itemText, purchased: false });
+                displayItems();
+                itemInput.value = '';//clear the input field after adding the item
+                
 
