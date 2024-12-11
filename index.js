@@ -26,5 +26,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 items.push({ text: itemText, purchased: false });
                 displayItems();
                 itemInput.value = '';//clear the input field after adding the item
+                }
+            };
+            //Function to mark item as purchased
+            const markAsPurchased = (index) => { 
+                items[index].purchased = true;
+                 displayItems(); 
+                };
+                //Function to clear all the items from the list
                 
 
