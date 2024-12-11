@@ -11,3 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
             items.forEach((item, index) => {
                 const listItem = document.createElement('li'); 
                 listItem.textContent = item.text;
+                if (item.purchased) { 
+                    listItem.style.textDecoration = "line-through";
+                     listItem.style.backgroundColor = "#d3d3d3"; // Light grey background 
+                     }
