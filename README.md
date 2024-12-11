@@ -1,5 +1,5 @@
 # <strong>WK2-Code-challenge</strong>
-# <b>Description></b>
+# <b>Description</b>
 This challenge is about creating an interactive shopping list by combining array iteration,DOM manipulation and event handling.Users should be able to add items to the list, mark items as purchased, and clear the list.
 # <b>Installation</b>
 The use of this code challenge requires one to have node.js installed.
